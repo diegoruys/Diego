@@ -30,7 +30,7 @@ class View extends \Magento\Framework\App\Action\Action
        $result = $this->resultJsonFactory->create();
        $data[0]= ['message' => 'Hello world!',
                   'name' => 'Diego Ruys Mendes',
-                  'celphone' => '19982514540'
+                  'celphone' => '11222224444'
                 ];
 
     return $result->setData($data);
