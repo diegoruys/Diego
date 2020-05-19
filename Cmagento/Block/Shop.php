@@ -35,13 +35,14 @@ class Shop extends \Magento\Framework\View\Element\Template
     {
         return $this->_storeManager->getStore()->getName();
     }
-
-  /*  public function getStoreUrl($fromStore = true)
+    //Esta função funciona mas como não está declarada compilador fica acusando erro.
+    /*public function getStoreUrl($fromStore = true)
     {
         return $this->_storeManager->getStore()->getCurrentUrl($fromStore);
-    }
+    }*/
 
-    public function isStoreActive()
+   //Esta função indicada no curso não funcionou, não foi reconhecida
+    /* public function isStoreActive()
     {
         return $this->_storeManager->getStore()->isActive();
     }*/
